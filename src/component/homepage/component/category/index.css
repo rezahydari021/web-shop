@@ -1,0 +1,19 @@
+.heights {
+    width: 97%;
+   margin-top: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.box-category {
+    width: 200px;
+    height: 200px;
+    background-color: #cdc9c9;
+    border-radius: 100%;
+}
+
+.box-category img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}

@@ -1,0 +1,38 @@
+.footer {
+    margin: 50px auto;
+    width: 97%;
+    background-color: white;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.footer a {
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+.sizesvg{
+    width: 40px;
+    height: 25px;
+    background-size: cover
+}
+#display-footer {
+    display: none;
+}
+
+#svg1{   
+    background-image: url(../../../img/svg/mastercard-svgrepo-com.svg); 
+}
+#svg2{
+    background-image: url(../../../img/svg/paypal-svgrepo-com.svg);
+}
+#svg3{
+    background-image: url(../../img/svg/unionpay-svgrepo-com.svg);
+}
+#svg4{ 
+    background-image: url(../../../img/svg/unionpay-svgrepo-com.svg);
+}
+@media (min-width:735px) {
+   #display-footer {
+        display:block;
+    }
+}

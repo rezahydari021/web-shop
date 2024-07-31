@@ -1,0 +1,71 @@
+.img-1 {
+    height: 40vh;
+    background-image: url(../../img/1.jpg);
+    background-size: cover;
+}
+
+.button-DeatlisCard {
+    width: 141px;
+    height: 44px;
+    background-color: #751fff;
+    color: white;
+    border: none;
+}
+
+.box-button-deatilsCard button {
+    width: 280px;
+    height: 50px;
+}
+
+#bg-button-card {
+    background-color: #751fff;
+}
+
+#bg-button-card-1 {
+    background-color: black;
+}
+
+.changeimg {
+    top: 50vh;
+}
+
+.changeimg img {
+    margin-top: 15px;
+    width: 80px;
+    height: 60px;
+    margin-right: 20px;    
+}
+
+#activeImage{
+    border-radius: 10px;
+    border: 4px solid #751fff ;
+    padding: 5px; 
+}
+@media (min-width:760px) {
+    .img-1 {
+        height: 70vh;
+    }
+
+    .w-xxl-50 {
+        width: 50%;
+    }
+
+    .w-xxl-75 {
+        width: 75%;
+    }
+
+    .changeimg {
+        width: 50%;
+        display: grid;
+        grid-row: auto;
+        position: absolute;
+        left: -14%;
+        top: 15vh;
+    }
+
+    .changeimg img {
+        width: 120px;
+        height: 80px;
+        margin-top: 15px;
+    }
+}

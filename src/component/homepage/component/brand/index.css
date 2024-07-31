@@ -1,0 +1,11 @@
+.barnds {
+    width: 97%  ;
+    margin: 0 auto;
+    background-color: white;
+}
+#logobrand1{
+   
+    background-image: url(../../img/svg/JBL.svg);
+    background-size: cover;
+    background-position: 0px 0px;
+}

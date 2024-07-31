@@ -1,0 +1,33 @@
+.height-card {
+    width: 97%;
+    background-color: white;
+    margin-top: 60px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.height-card p {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.col {
+    margin-bottom: 20px;
+}
+
+@media (min-width:735px) {
+    .height-card {
+        width: 97%;
+        background-color: white;
+        margin-top: 60px;
+        height: 20vh;
+        display: block;
+    }
+
+    .height-card p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

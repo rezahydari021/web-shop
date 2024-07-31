@@ -1,0 +1,23 @@
+.otp{
+    width: 100%;
+    height: 70vh;
+    background-color:#9d59a79e  ;
+    clip-path: circle(85% at 5% 20%);
+    border-radius: 50px;
+}
+.otpinput{
+    margin-top: 20vh;
+    line-height: 60px;
+}
+.otptext{
+    position: relative;
+    top: 15vh;
+    left: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 19px;
+}
+.otptext span{
+    color:rgba(0, 0, 0, 0.603);
+    font-size: 15px;
+}

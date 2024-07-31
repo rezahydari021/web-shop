@@ -1,0 +1,12 @@
+.button-cart button {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+#bg-button-cart{
+    background-color: #751fff;
+}
+#bg-button-cart-1{
+background-color: red;
+}
